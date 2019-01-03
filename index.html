@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset = "UTF-8">
+      <title>ElectronTest</title>
+   </head>
+   
+   <body>
+      
+
+ <button id="openFile" onclick="openFile();">Open</button>
+******
+<button id="saveFile" onclick="saveFile();">Save</button><br />
+<br />
+
+<textarea id="editor" style="width: 400px; height: 300px;"></textarea> <br /> <br />
+
+<form action="#" method="post"  id="form_id"  >
+
+<label>ZugNum :</label>
+<input type="text" name="ZugNum" id="name" placeholder="ZugNum" />
+<label>Start :</label>
+<input type="text" name="StartStation" id="start" placeholder="StartStation" />
+
+<label>End :</label>
+<input type="text" name="EndStation" id="end" placeholder="EndStation" />
+
+<input type="button" name="Update" id="btn_id" value="Update" onclick="Update()"/>
+
+</form>
+
+
+<script src="./button.js"></script>
+<script src="./submit.js"></script>
+
+   </body>
+</html>
